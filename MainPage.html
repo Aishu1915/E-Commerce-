@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+<body>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-medium">
+  <div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="http://localhost:8080/E-Commerce/index.html" class="w3-bar-item w3-button">Login</a>
+  <a href="#" class="w3-bar-item w3-button">About Us</a>
+  <a href="#" class="w3-bar-item w3-button">Cart</a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:2500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-50 w3-white">
+    <h1 class="w3-xxxlarge w3-animate-top"><b>YOU SHOP WE SHIP</b></h1>
+    <h6>Welcome to  <span class="w3-tag">YOU SHOP WE SHIP</span></h6>
+     <h6><span class="w3-tag">Offer Ends in</span></h6>
+  </header>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 6, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image w3-animate-top" src="grocery1.jpg" alt="Fashion Blog" width="1600" height="2000">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">YOU SHOP WE SHIP</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b></b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity  w3-hover-black w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Explore Now</button></h6>
+    </div>
+   <div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25% " class="w3-bar-item w3-button w3-hover-black">Facebook</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Instagram</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Twitter</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Contact</a>
+  </div>
+
+  </div>
+  
+</body>
+</html>
+
+
+  
+
+  
