@@ -10,6 +10,7 @@ Modules:
                                -View Product 
                                -View Cart 
                                -Payment Gateway Page
-                             (https://user-images.githubusercontent.com/76156590/126465112-d0890ed2-31c2-4ebd-b09f-633a9765d538.png)
+![Screenshot (459)](https://user-images.githubusercontent.com/76156590/126465633-b556ded2-ba1b-4cf7-96c6-3c89f13102f9.png)
+
 
                 
